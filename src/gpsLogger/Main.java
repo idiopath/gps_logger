@@ -25,8 +25,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		TreeMap<Long, List<Double>> map = FileHandling.importFiles("C:\\Users\\idiop\\OneDrive\\Anwendungen\\gps log\\Wiko Sunny");
-		
+//		TreeMap<Long, List<Double>> map = FileHandling.importFiles("C:\\Users\\idiop\\OneDrive\\Anwendungen\\gps log\\Wiko Sunny");
+
+		System.out.println(FileHandling.rawToOneFile("D:\\Henrik\\gps_data", "D:\\Henrik\\gps_data\\all-" + System.currentTimeMillis() + ".csv"));
 		
 //		Set<Long> keys = new HashSet<Long>();
 //		keys.addAll(map2.keySet()); 
